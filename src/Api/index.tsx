@@ -9,6 +9,19 @@ const axiosInstance = Axios.create({
   },
 })
 
-const Api = {}
+const Api = {
+  getData() {
+    return new Promise((resolve, reject) => {
+      axiosInstance
+        .get(
+          config.CATALOG.BASE.concat(config.STATIC.BASE).concat(
+            config.FILE.BASE
+          )
+        )
+        .then((res) => resolve(res.data))
+        .catch((error) => reject(error))
+    })
+  },
+}
 
 export default Api
