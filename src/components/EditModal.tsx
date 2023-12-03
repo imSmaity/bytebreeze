@@ -48,10 +48,10 @@ const EditModal = ({
   colNumber,
 }: IEditModalProps) => {
   const [data, setData] = useState<IPerson>({
-    name: value.name || '',
-    age: value.age || '',
-    city: value.city || '',
-    pinCode: value.pinCode || '',
+    name: value.name,
+    age: value.age,
+    city: value.city,
+    pinCode: value.pinCode,
   })
 
   const handleChange = (e: ChangeEvent<HTMLInputElement>) => {

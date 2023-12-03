@@ -26,7 +26,7 @@ const Column = ({ name, age, city, pinCode, tdStyle }: IColumnProps) => {
       {/* Display if available */}
       <div style={styles.text}>{name ? name : null}</div>
       <div style={styles.text}>{age ? age : null}</div>
-      <div style={styles.text}>{age ? city : null}</div>
+      <div style={styles.text}>{city ? city : null}</div>
       <div style={styles.text}>{pinCode ? pinCode : null}</div>
     </td>
   )
