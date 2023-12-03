@@ -1,6 +1,6 @@
-export interface Person {
+export interface IPerson {
   name: string | null
-  age: number | null
+  age: number | string | null
   city: string | null
   pinCode: string | null
 }
