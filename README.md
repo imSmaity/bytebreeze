@@ -1,24 +1,29 @@
-# Getting Started with Create React App
+# Byte Breeze
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+The dashboard retrieves and displays data from an external API source, offering a streamlined interface for users to access and analyze relevant information. It enhances data visibility and facilitates informed decision-making.
 
-## Available Scripts
+## Description
 
-Install dependencies:
+The project involves the development a dashboard using React, Typescript, and MaterialUI to efficiently present data from an external API. The architecture includes custom components such as Row, Column, and Button housed in the component folder. Data fetching is centralized in the Dashboard component, leveraging React's efficient state management. To maintain a global state across components, props drilling has been employed, ensuring seamless communication between different parts of the application. The design aspect incorporates custom CSS for a personalized look of buttons and tables, while the use of MaterialUI components, particularly for the Modal feature, enhances the overall user experience by adhering to modern design principles.
 
-### `npm install`
+## Getting Started
 
-In the project directory, you can run:
+### Dependencies
 
+- React.js
+- Typescript
+- MaterialUI
+- Axios
+- react-toastify
 
-### `npm start`
+### Installing
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+```
+npm install
+```
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+### Executing program
 
-
-
-
+```
+npm start
+```
